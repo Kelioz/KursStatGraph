@@ -5,6 +5,7 @@ from scipy.stats import norm
 import matplotlib.pyplot as plt
 import seaborn as sns
 import pandas as pd
+import openpyxl
 
 P = 0.92  # Доверительная вероятность
 q = 0.05  # Уровень значимости

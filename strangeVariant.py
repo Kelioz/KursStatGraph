@@ -4,6 +4,7 @@ import scipy.stats as st
 from scipy.stats import norm
 import matplotlib.pyplot as plt
 import pandas as pd
+import openpyxl
 
 
 P = 0.92  # Доверительная вероятность
