@@ -84,7 +84,7 @@ def seagraph():
 
 
 # почти готов но ось у не в том виде
-def matbar():
+def CreatePlot():
     # Получение точек по кторым строиться кривая
     x_axis = np.arange(minarray, maxarray, C)
 
@@ -121,7 +121,7 @@ def matbar():
     return
 
 
-matbar()
+CreatePlot()
 
 
 plt.show()
